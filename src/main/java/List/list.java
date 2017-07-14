@@ -3,6 +3,7 @@ package List;
 import com.google.common.base.Function;
 import com.google.common.base.Predicate;
 
+import java.math.BigDecimal;
 import java.util.Iterator;
 import java.util.List;
 
@@ -37,10 +38,10 @@ public class list {
             }
         }));
 
+        BigDecimal a=new BigDecimal(1);
+        BigDecimal b=new BigDecimal(3);
 
-
-
-
+        System.out.println(a.divide(b,2,BigDecimal.ROUND_HALF_EVEN));
 
 
     }

@@ -6,11 +6,11 @@ import com.google.common.collect.HashBiMap;
 /**
  * Created by liuyang on 2017/7/4.
  */
-public class guavaBiMap {
+public class _005_guavaBiMap {
 
     public static void main(String[] args) {
 //map KV反转
-//        mapInverse();
+        mapInverse();
 //重复值插入
 //        repeatValue();
 //强行插入
@@ -32,6 +32,7 @@ public class guavaBiMap {
         logfileMap.put(4, "d.log");
 
         System.out.println("logfileMap:" + logfileMap);
+
         System.out.println("filelogMap:" + filelogMap);
     }
 
@@ -41,6 +42,7 @@ public class guavaBiMap {
         bimap.put(2, "2");
         bimap.put(10, "10");
         bimap.forcePut(11, "10");
+        System.out.println(bimap);
     }
 
     private static void repeatValue() {
@@ -53,12 +55,13 @@ public class guavaBiMap {
     }
 
     private static void mapInverse() {
-        BiMap<Integer, String> logfileMap = HashBiMap.create();
-        logfileMap.put(1, "a.log");
-        logfileMap.put(2, "b.log");
-        logfileMap.put(3, "c.log");
+        BiMap<Integer, Integer> logfileMap = HashBiMap.create();
+        logfileMap.put(1, 3);
+        logfileMap.put(3, 2);
+
         System.out.println("logfileMap:" + logfileMap);
-        BiMap<String, Integer> filelogMap = logfileMap.inverse();
+        BiMap<Integer, Integer> filelogMap = logfileMap.inverse();
+        logfileMap.put(4, 5);
         System.out.println("filelogMap:" + filelogMap);
     }
 }

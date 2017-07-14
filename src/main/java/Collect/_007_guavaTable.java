@@ -6,7 +6,7 @@ import com.google.common.collect.Table;
 /**
  * Created by liuyang on 2017/7/4.
  */
-public class guavaTable {
+public class _007_guavaTable {
 
     public static void main(String[] args) {
 
@@ -16,10 +16,12 @@ public class guavaTable {
     private static void init() {
         Table<Integer, Integer, String> aTable = HashBasedTable.create();
 
+
 //        aTable.put(null, null, "123");
         aTable.put(1, 1, "123");
         aTable.put(1, 2, "123");
         aTable.put(1, 2, "124");
+
 
 
 //        for (char a = 'A'; a <= 'C'; ++a) {
