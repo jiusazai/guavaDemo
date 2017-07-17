@@ -26,5 +26,7 @@ public class test {
 
         System.out.println(-1017931171&15);
 
+        System.out.println(3&8);
+
     }
 }
