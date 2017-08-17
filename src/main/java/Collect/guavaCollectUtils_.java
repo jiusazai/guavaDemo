@@ -57,13 +57,13 @@ public class guavaCollectUtils_ {
         listsUtils();
 
         //Sets
-//        setsUtils();
+        setsUtils();
 
         //Maps
 //        mapsUtils();
 
         //Multiset
-//        multiSetsUtils();
+        multiSetsUtils();
 
         //MultiMap
 //        multiMapUtils();
