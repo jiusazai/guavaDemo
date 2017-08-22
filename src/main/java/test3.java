@@ -7,32 +7,4 @@ public class test3 {
 
 
 
-
-    2
-
-
-
-
-
-ffff
-qq
-
-
-
-
-
-    1
-
-
-
-
-    2
-
-
-
-
-
-ffff
-
-
 }
