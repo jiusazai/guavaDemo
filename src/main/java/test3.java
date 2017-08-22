@@ -14,19 +14,7 @@ public class test3 {
 
 
 
-
-
-    m1
-
-
-
-
-
-
-
-    1
-
-
+ffff
 
 
 }
