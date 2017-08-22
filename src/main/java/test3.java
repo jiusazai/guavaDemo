@@ -6,19 +6,7 @@ public class test3 {
 
 
 
-
-
-    2
-
-
-
-
-
-
-
-    m1
-
-
+qq
 
 
 
